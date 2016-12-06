@@ -1,4 +1,4 @@
-class Auto {
+export class Auto {
     constructor(data) {
         this.make = data.make;
         this.model = data.model;
