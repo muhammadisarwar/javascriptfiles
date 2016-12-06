@@ -1,4 +1,5 @@
-class Car extends Auto {
+import {Auto} from 'https://github.com/muhammadisarwar/javascriptfiles/edit/es6-tutorial/auto.js'
+export class Car extends Auto {
     constructor(data) {
         super(data);
         this.isElectric = data.isElectric;
