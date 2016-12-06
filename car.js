@@ -1,4 +1,3 @@
-import {Auto} from 'auto.js';
 export class Car extends Auto {
     constructor(data) {
         super(data);
